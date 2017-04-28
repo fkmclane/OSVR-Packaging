@@ -1,0 +1,42 @@
+Name: osvr-udev
+Version: @VERSION@
+Release: 1
+Summary:  Udev rule for OSVR HDK
+
+License: ASL 2.0
+URL: https://aur.archlinux.org/packages/osvr-udev/
+Source0: osvr-udev-@VERSION@.tar.gz
+
+BuildRequires: cmake
+
+%description
+Udev rule for OSVR HDK
+
+
+%prep
+%autosetup
+
+
+%build
+%cmake .
+%make_build
+
+
+%install
+rm -rf $RPM_BUILD_ROOT
+%make_install
+find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
+
+
+%post -p /sbin/ldconfig
+
+%postun -p /sbin/ldconfig
+
+
+%files
+%license LICENSE
+%doc LICENSE README.md NOTICE CONTRIBUTING.md
+
+%changelog
+* Tue Feb 28 2017 Joshua Forbes
+-

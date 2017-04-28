@@ -1,0 +1,15 @@
+Source: osvr-leapmotion
+Section: games
+Priority: optional
+Maintainer: Chris Duncan <cwduncan281@gmail.com>
+Build-Depends: debhelper (>=9), cmake (>=3)
+Standards-Version: 3.9.6
+Homepage: https://github.com/OSVR/leap-motion
+#Vcs-Git: git://anonscm.debian.org/collab-maint/osvr-leapmotion.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/osvr-leapmotion.git
+
+Package: osvr-leapmotion
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, osvr-core, libfunctionality
+Description: OSVR Leap Motion plugin
+ 

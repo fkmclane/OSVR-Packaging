@@ -1,0 +1,15 @@
+Source: osvr-core
+Section: games
+Priority: optional
+Maintainer: Chris Duncan <cwduncan281@gmail.com>
+Build-Depends: debhelper (>=9), cmake (>= 3.0.0)
+Standards-Version: 3.9.6
+Homepage: https://osvr.github.io
+#Vcs-Git: git://anonscm.debian.org/collab-maint/osvr-core.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/osvr-core.git
+
+Package: osvr-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfunctionality
+Description: The core libraries, applications, and plugins of the OSVR software platform.
+ 

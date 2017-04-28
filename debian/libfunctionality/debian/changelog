@@ -1,0 +1,5 @@
+libfunctionality (0.1-29-g3c8b1e4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Chris <chris@unknown>  Wed, 12 Apr 2017 12:04:24 -0400

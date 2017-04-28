@@ -1,0 +1,15 @@
+Source: osvr-vive
+Section: games
+Priority: optional
+Maintainer: Chris Duncan <cwduncan281@gmail.com>
+Build-Depends: debhelper (>=9), cmake (>=3)
+Standards-Version: 3.9.6
+Homepage: https://github.com/OSVR/OSVR-vive
+#Vcs-Git: git://anonscm.debian.org/collab-maint/osvr-vive.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/osvr-vive.git
+
+Package: osvr-vive
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, osvr-core, libfunctionality
+Description: OSVR driver for use with the HTC Vive (including Vive PRE)
+ 

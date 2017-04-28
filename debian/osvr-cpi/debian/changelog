@@ -1,0 +1,5 @@
+osvr-cpi (0.0-19-1d8d242-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Chris <chris@unknown>  Wed, 19 Apr 2017 09:35:12 -0400

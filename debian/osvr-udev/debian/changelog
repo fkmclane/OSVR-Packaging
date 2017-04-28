@@ -1,0 +1,5 @@
+osvr-udev (0.0-4-8b54bfb-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Chris <chris@unknown>  Mon, 24 Apr 2017 09:49:52 -0400
